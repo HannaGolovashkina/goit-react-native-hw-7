@@ -14,6 +14,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "build": {
+      "development": {
+        "developmentClient": true,
+        "distribution": "internal"
+      },
+      "preview": {
+        "distribution": "internal"
+      },
+      "production": {}
+    },
     "ios": {
       "supportsTablet": true,
       "ios.config.googleMapsApiKey": "AIzaSyDeJhEgmmfL9NNDOZ4rfiiz8QWui788AIQ"
@@ -27,16 +37,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-      "build": {
-        "development": {
-          "developmentClient": true,
-          "distribution": "internal"
-        },
-        "preview": {
-          "distribution": "internal"
-        },
-        "production": {}
-      }
+    }
   }
 }
